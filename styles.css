@@ -71,9 +71,6 @@ overflow: hidden;
 }
 
 
-a{
-text-decoration:none;
-}
 
 
 ul{
@@ -96,6 +93,8 @@ li {
 	min-width: 10px;
 	margin: 5px;
   font-family: 'fira-Mono', monospace;
+	text-decoration:none;
+ 
 }
 
 li:hover {
