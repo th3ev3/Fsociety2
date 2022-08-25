@@ -2,13 +2,14 @@
 
 
 body{
-	background-image: url(https://c4.wallpaperflare.com/wallpaper/891/59/630/fsociety-mr-robot-logo-4k-wallpaper-preview.jpg);
+
+background-color: #020202;  
 background-size:100%;
 background-repeat: no-repeat;
-color: #fff;
+color: rgb(245, 237, 237);
 font-family:'fira-Mono', monospace;
 font-size: 15px;
-
+overflow: hidden;
 }
 
 * {
@@ -16,6 +17,79 @@ font-size: 15px;
 	padding: 0;
 	list-style-type: none;
 }
+.conteudo{
+  border-top: 0.4px solid #fff;
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-direction: column-reverse;
+  margin-top: 25px;
+  
+}
+
+.conteudo-principal-imagem {
+  height: 300px;
+
+}
+
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin-top: 18px;
+  margin-bottom: 5px;
+  text-align: center;
+  
+}
+
+.conteudo-secundario-titulo {
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 48px;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFF2EF;
+  margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fffcfa;
+   margin-bottom: 16px;
+   text-align: center;
+}
+
+.conteudo-secundario-paragrafo1{
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ul{
 	display: flex;
@@ -35,7 +109,7 @@ li {
   cursor: pointer;
   color: #ebebeb;
 	min-width: 10px;
-	margin: 0;
+	margin: 5px;
   font-family: 'fira-Mono', monospace;
 }
 
@@ -58,4 +132,4 @@ li:hover {
   --_t: 0;
   --_c: #0000;
 }
-
+ 
